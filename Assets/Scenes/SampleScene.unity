@@ -1120,7 +1120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"FollowTarget","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"RotateSpeed","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"FollowTarget","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"RotateSpeed","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 526935187}
 --- !u!1 &1705911270 stripped
