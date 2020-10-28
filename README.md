@@ -1,8 +1,6 @@
 <h1>Bolt Visual Scripting in Unity</h1>
  
- These project files accompany the Bolt Visual Scripting in Unity course:
- 
-[Bolt Visual Scripting in Unity](https://www.udemy.com/course/draft/3441228/learn/lecture/22191122?instructorPreviewMode=student_v4#questions)
+ These project files accompany [Bolt Visual Scripting in Unity](https://www.udemy.com/course/draft/3441228/learn/lecture/22191122?instructorPreviewMode=student_v4#questions)
 
 Have you ever wanted to build a game without coding?  Now you can.
 
