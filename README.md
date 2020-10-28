@@ -2,7 +2,7 @@
  
  These project files accompany [Bolt Visual Scripting in Unity](https://www.udemy.com/course/draft/3441228/learn/lecture/22191122?instructorPreviewMode=student_v4#questions)
 
-Have you ever wanted to build a game without coding?  Now you can.
+<h1>Have you ever wanted to build a game without coding?  Now you can.</h1>
 
 In this course, we'll cover the essentials of Bolt, Unity's official visual scripting solution:
 
