@@ -8,17 +8,17 @@ Have you ever wanted to build a game without coding?  Now you can.
 
 In this course, we'll cover the essentials of Bolt, Unity's official visual scripting solution:
 
- *Take a deep dive into the essentials of Flow Machines and Flow Graphs
+ * Take a deep dive into the essentials of Flow Machines and Flow Graphs
 
- *Master the fundamentals of Bolt and visual scripting
+ * Master the fundamentals of Bolt and visual scripting
 
- *Consolidate your graphs with SuperUnits
+ * Consolidate your graphs with SuperUnits
 
- *Create first-person movement logic, all without writing a single line of code
+ * Create first-person movement logic, all without writing a single line of code
 
- *Build game mechanics in a modular, visual way
+ * Build game mechanics in a modular, visual way
 
- *Learn by doing instead of watching. Each lecture incorporates exercises and challenges to engage the material.
+ * Learn by doing instead of watching. Each lecture incorporates exercises and challenges to engage the material.
 
 Unity is a fantastic engine that enables you to make production-quality games. Build for Windows, macOS, iOS, and Android all from a single project!
 
