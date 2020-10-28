@@ -1,4 +1,4 @@
-# BoltIntro
+<h1>Bolt Visual Scripting in Unity</h1>
  
  These project files accompany the Bolt Visual Scripting in Unity course:
  
