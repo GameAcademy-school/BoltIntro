@@ -7,6 +7,10 @@ using UnityEngine;
 public static class InstallBoltMenuItem
 {
 	private const string InstallFolder = "Install Bolt";
+#if !UNITY_2019_3_OR_NEWER
+	private const string NET3PackageRuntimeName = "NET3";
+#endif
+	private const string NET4PackageRuntimeName = "NET4";
 
 	[MenuItem("Tools/Install Bolt")]
 	private static void Install()
@@ -23,7 +27,11 @@ public static class InstallBoltMenuItem
 
 		foreach (var packageFile in packageFiles)
 		{
+#if UNITY_2019_3_OR_NEWER
+			if (Path.GetFileNameWithoutExtension(packageFile).Contains(NET4PackageRuntimeName))
+#else
 			if (PlayerSettings.scriptingRuntimeVersion == InferRuntimeVersion(Path.GetFileNameWithoutExtension(packageFile)))
+#endif
 			{
 				matchingPackageFile = packageFile;
 				break;
@@ -32,24 +40,34 @@ public static class InstallBoltMenuItem
 
 		if (matchingPackageFile == null)
 		{
+#if UNITY_2019_3_OR_NEWER
+			EditorUtility.DisplayDialog("Bolt Install Error", "Could not find any Bolt package file that matches the current scripting runtime version: 'NET4'.", "OK");
+#else
 			EditorUtility.DisplayDialog("Bolt Install Error", "Could not find any Bolt package file that matches the current scripting runtime version: '" + PlayerSettings.scriptingRuntimeVersion + "'.", "OK");
+#endif
+			return;
 		}
 
+#if UNITY_2019_3_OR_NEWER
+		AssetDatabase.ImportPackage(matchingPackageFile, true);
+#else
 		if (EditorUtility.DisplayDialog("Install Bolt", "Import Bolt for " + GetRuntimeVersionStringPretty(PlayerSettings.scriptingRuntimeVersion) + "?", "Import", "Cancel"))
 		{
 			AssetDatabase.ImportPackage(matchingPackageFile, true);
 		}
-	}
+#endif
+    }
 
-	private static string GetRuntimeVersionString(ScriptingRuntimeVersion version)
+#if !UNITY_2019_3_OR_NEWER
+    private static string GetRuntimeVersionString(ScriptingRuntimeVersion version)
 	{
 		switch (version)
 		{
 			case ScriptingRuntimeVersion.Latest:
-				return "NET4";
+				return NET4PackageRuntimeName;
 
 			case ScriptingRuntimeVersion.Legacy:
-				return "NET3";
+				return NET3PackageRuntimeName;
 
 			default:
 				return version.ToString();
@@ -83,4 +101,5 @@ public static class InstallBoltMenuItem
 
 		return null;
 	}
+#endif
 }
