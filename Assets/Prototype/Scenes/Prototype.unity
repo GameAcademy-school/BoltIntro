@@ -396,7 +396,7 @@ PrefabInstance:
     - target: {fileID: 7095253918554575079, guid: eff99840e21b444d6b8f04d14e63fd8e,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"RotateSpeed","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Gravity","value":{"$content":-9.8,"$type":"System.Single"},"$version":"A"},{"name":"JumpForce","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"IsGrounded","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"RotateSpeed","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Gravity","value":{"$content":-9.8,"$type":"System.Single"},"$version":"A"},{"name":"JumpForce","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"IsGrounded","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"RunSpeedMultiplier","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"IsRunning","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 7095253918595116307, guid: eff99840e21b444d6b8f04d14e63fd8e,
         type: 3}
