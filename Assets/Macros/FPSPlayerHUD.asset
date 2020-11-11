@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: FPSPlayerHUD
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"94307f35-bdf0-420a-a76c-9314bc8742bb","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"f1e58e7b-7211-467f-85f7-02d10f8e855b","$version":"A","$type":"Bolt.Update"}],"$version":"A"}}'
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"94307f35-bdf0-420a-a76c-9314bc8742bb","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-208.0,"y":-39.0},"guid":"f1e58e7b-7211-467f-85f7-02d10f8e855b","$version":"A","$type":"Bolt.Update"}],"$version":"A"}}'
     _objectReferences: []
