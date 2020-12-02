@@ -1499,8 +1499,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"GameManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 15021396}
 --- !u!4 &946575941
 Transform:
   m_ObjectHideFlags: 0
@@ -3147,6 +3148,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 763567013}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2014116306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 42948416835842150, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 42948416835842150, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 42948416835842150, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 42948416835842150, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 42948416835842150, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 42948416835842150, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 42948416835842150, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 42948416835842150, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 42948416835842150, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 42948416835842150, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 42948416835842150, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017165133390828806, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8059794537622972108, guid: cedc896b9e28040179baf4815536aa96,
+        type: 3}
+      propertyPath: m_Name
+      value: StartScreen
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cedc896b9e28040179baf4815536aa96, type: 3}
+--- !u!1 &2014116307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8059794537622972108, guid: cedc896b9e28040179baf4815536aa96,
+    type: 3}
+  m_PrefabInstance: {fileID: 2014116306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2014116308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8017165133390828806, guid: cedc896b9e28040179baf4815536aa96,
+    type: 3}
+  m_PrefabInstance: {fileID: 2014116306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2014116309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014116307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: fcd9b57adea6c4abcbcbaac388bc8bba, type: 2}
+--- !u!114 &2014116310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014116307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"StartCanvas","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2014116308}
 --- !u!4 &2018914039 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3812430731107522376, guid: 9304ff51db5f3476ab1c73038fb5c7f7,
