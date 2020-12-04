@@ -1061,11 +1061,129 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9304ff51db5f3476ab1c73038fb5c7f7, type: 3}
+--- !u!1001 &702515661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 364546964858458568, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100391710651351217, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100391710651351217, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100391710651351217, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100391710651351217, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100391710651351217, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100391710651351217, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100391710651351217, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100391710651351217, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100391710651351217, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100391710651351217, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100391710651351217, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6315513148419364379, guid: 9f78b118ee95347cfa70477e7eccb2be,
+        type: 3}
+      propertyPath: m_Name
+      value: EndScreen
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9f78b118ee95347cfa70477e7eccb2be, type: 3}
+--- !u!1 &702515662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6315513148419364379, guid: 9f78b118ee95347cfa70477e7eccb2be,
+    type: 3}
+  m_PrefabInstance: {fileID: 702515661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &702515663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702515662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7ae648319f9a64845be799cbecb67c08, type: 2}
+--- !u!114 &702515664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702515662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"EndCanvas","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 721121830}
 --- !u!4 &716294743 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3812430731107522376, guid: 9304ff51db5f3476ab1c73038fb5c7f7,
     type: 3}
   m_PrefabInstance: {fileID: 946585646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &721121830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 364546964858458568, guid: 9f78b118ee95347cfa70477e7eccb2be,
+    type: 3}
+  m_PrefabInstance: {fileID: 702515661}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &763567013
 PrefabInstance:
