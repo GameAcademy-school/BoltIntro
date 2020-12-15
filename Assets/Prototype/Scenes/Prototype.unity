@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"IsGamePlaying","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"IsGameOver","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"IsGameRestarted","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ScoreManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"IsGamePlaying","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"IsGameOver","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"IsGameRestarted","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"IsWinner","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ScoreManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1132954652}
 --- !u!4 &15021399
